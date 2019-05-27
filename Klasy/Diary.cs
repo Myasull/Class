@@ -16,34 +16,55 @@ namespace Klasy
         //Stan (zmienne - pola)
         List<float> ratings;
 
+        public static float MinGrade = 0;
+        public static float MaxGrade = 6;
+
         //Zachowania
         public void AddRaiting(float rating)
         {
             ratings.Add(rating);
         }
 
-        public float CalculateAverage()
+        //public float CalculateAverage()
+        //{
+        //    float sum = 0, avg = 0;
+
+        //    foreach (var rating in ratings)
+        //    {
+        //        sum += rating;
+        //    }
+
+        //    avg = sum / ratings.Count();
+
+        //    return avg;
+        //}
+
+        //public float GiveMaxRating()
+        //{
+        //    return ratings.Max();
+        //}
+
+        //public float GiveMinRating()
+        //{
+        //    return ratings.Min();
+        //}
+
+        internal DiaryStatiscitcs ComputeStatistics()
         {
-            float sum = 0, avg = 0;
+            DiaryStatiscitcs stats = new DiaryStatiscitcs();
+
+            float sum = 0f;
 
             foreach (var rating in ratings)
             {
                 sum += rating;
             }
 
-            avg = sum / ratings.Count();
+            stats.AverageGrade = sum / ratings.Count();
+            stats.MaxGrade = ratings.Max();
+            stats.MinGrade = ratings.Min();
 
-            return avg;
-        }
-
-        public float GiveMaxRating()
-        {
-            return ratings.Max();
-        }
-
-        public float GiveMinRating()
-        {
-            return ratings.Min();
+            return stats;
         }
     }
 }
