@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Class\bin\Debug\Class.exe.config
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Class\bin\Debug\Class.exe
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Class\bin\Debug\Class.pdb
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Class\obj\Debug\Class.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Class\obj\Debug\Class.exe
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Class\obj\Debug\Class.pdb

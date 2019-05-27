@@ -1,0 +1,7 @@
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Constructors\bin\Debug\Constructors.exe.config
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Constructors\bin\Debug\Constructors.exe
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Constructors\bin\Debug\Constructors.pdb
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Constructors\obj\Debug\Constructors.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Constructors\obj\Debug\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Constructors\obj\Debug\Constructors.exe
+C:\Users\Asus\Desktop\projekty\1CSharp\Klasy\Constructors\obj\Debug\Constructors.pdb
