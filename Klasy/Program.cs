@@ -45,14 +45,20 @@ namespace Klasy
 
                 }   
             }
-            Console.WriteLine("średnia ocen to: " + diary.CalculateAverage());
-            Console.WriteLine("Najwyższa ocena to: " + diary.GiveMaxRating());
-            Console.WriteLine("Najniższa ocena to: " + diary.GiveMinRating());
+
+            DiaryStatiscitcs stats = diary.ComputeStatistics();
+
+            Console.WriteLine("Średnia: " + stats.AverageGrade);
+            Console.WriteLine("Max: " + stats.MaxGrade);
+            Console.WriteLine("Min: " + stats.MinGrade);
+
+            //Console.WriteLine("średnia ocen to: " + diary.CalculateAverage());
+            //Console.WriteLine("Najwyższa ocena to: " + diary.GiveMaxRating());
+            //Console.WriteLine("Najniższa ocena to: " + diary.GiveMinRating());
             Console.ReadKey();
 
             Diary diary2 = new Diary();
             Diary diary3 = new Diary();
         }
     }
-
 }
